@@ -1,5 +1,5 @@
 ## [Flask Portfolio Starter](https://nighthawkcodingsociety.com/projectsearch/details/Flask%20Portfolio%20Starter)
-Runtime link: https://portfolio.nighthawkcodingsociety.com/
+Runtime link: http://127.0.0.1:5000/
 ### Idea
 Starter code should be fun and practical.
 ### Visual thoughts
