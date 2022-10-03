@@ -4,27 +4,46 @@
 {% block body %}
     <!-- Start of body content specific to page -->
     <div class="px-5 py-5 mx-auto">
-        <h1 class="text-white" style="text-align:center"><strong>Nathan's Home Page</strong></h1>
+        <h1 class="text-Black"><strong><h1 style="color:red;">Nathan's Flask Homepage</h1></strong></h1>
         <div class="row">
             <div class="col-4">
+                <div class="card">
+                    <img class="card-img-top" src="{{ url_for('static', filename = 'assets/coding.png') }}">                
+                    <div class="card-body">
+                        <h5 class="card-title"><mark></mark></h5>
+                        <p class="card-text">
+                        <font size="5"><mark>Personalizing my flask home page</mark> </font>
+                    </p>
+                    </div>
+                </div>
             </div>
             <div class="col-4">
                 <div class="card">
-                    <img class="my-image" src="{{ url_for('static', filename='assets/dnhs_logo.png') }}" alt="Flask Development">                    
+                    <img class="card-img-top" src="{{ url_for('static', filename = 'assets/capy.png') }}" >                
                     <div class="card-body">
-                    <h5 class="card-title"><mark>About Me</mark></h5>
+                    <h5 class="card-title"><mark>Fun facts about me</mark></h5>
                     <p class="card-text">
                         <ol>
-                            <li>Junior at Del Norte.</li>
-                            <li>In period 4 APCSP.</li>
-                            <li>I like coding.</li>
+                            <li> My favorite color is navy</li>
+                            <li> My favorite animal is capybara</li>
+                            <li> I like listening to music</li>
                         </ol>
+                    </p>
+        
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img class="card-img-top" src="{{ url_for('static', filename = 'assets/dnhs_logo.png') }}" >                           
+                    <div class="card-body">
+                    <p class="card-text">
+                        <tr>
+                        
                     </p>
                     <a href="https://github.com/nsk1207/fastpages_nathan" class="btn btn-primary">Link to my repo</a>
                     </div>
                 </div>
-            </div>
-            <div class="col-4">                
             </div>
             
         </div>
